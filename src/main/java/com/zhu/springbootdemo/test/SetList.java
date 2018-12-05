@@ -26,6 +26,10 @@ public class SetList<E>{
        }
    }
 
+   public E get(int index){
+       return (E)list.get(index);
+   }
+
     public int getCapacity() {
         return capacity;
     }

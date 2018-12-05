@@ -1,6 +1,5 @@
 package com.zhu.springbootdemo.test;
 
-import com.alibaba.fastjson.JSON;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -17,6 +16,6 @@ public class testArray {
         list.add("aa");
         list.add("bb");
 
-        System.out.println(JSON.toJSONString(strs));
+        System.out.println(strs);
     }
 }
